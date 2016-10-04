@@ -22,22 +22,22 @@ def factor(n)   #def a method factor that takes (n) as a param
   end
 
 
-puts(
-  'factorial(0) == 1: ' + (factor(0) == 1).to_s
-)
+#puts(
+#  'factorial(0) == 1: ' + (factor(0) == 1).to_s
+#)
 
-puts(
-  'factorial(1) == 1: ' + (factor(1) == 1).to_s
-)
+#puts(
+#  'factorial(1) == 1: ' + (factor(1) == 1).to_s
+#)
 
-puts(
-  'factorial(2) == 2: ' + (factor(2) == 2).to_s
-)
-
-puts(
-  'factorial(3) == 6: ' + (factor(3) == 6).to_s
-)
-
+#puts(
+#  'factorial(2) == 2: ' + (factor(2) == 2).to_s
+#)
+#
+#puts(
+#  'factorial(3) == 6: ' + (factor(3) == 6).to_s
+#)
+#
 puts(
   'factorial(4) == 24: ' + (factor(4) == 24).to_s
 )

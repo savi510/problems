@@ -10,12 +10,12 @@ def reverse(string)
   #while the string length is less than 0
   while i < string.length 
    
-    #puts string.length() ##Debug what is the length of the string at this point
+    puts "string length = '#{string.length()}'" ##Debug what is the length of the string at this point
     #Passing each char into the black and adding it to reverse_string
     reverse_string = string[i] + reverse_string 
     
     #Print reverse_string every time after string[i] +
-    # puts reverse_string 
+    puts reverse_string 
     
     #keep adding by 1
     i += 1  
